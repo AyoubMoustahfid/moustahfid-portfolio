@@ -1,0 +1,312 @@
+{
+    "AboutUs": {
+        "title": "About Me",
+        "talkAbout": "A Passionate Developer Who Loves to Code",
+        "introMe": "Hello! I'm Ayoub Moustahfid, a dedicated and results-driven Junior Frontend Developer born on June 7, 2000, in Agadir, Morocco. I've ventured from the world of material science and physics to immerse myself in the dynamic and ever-evolving field of web development.",
+        "soft_skill_01": "Creative Visionary",
+        "soft_skill_02": "Problem-solving Maestro",
+        "soft_skill_03": "Collaboration Virtuoso",
+        "soft_skill_04": "User-Centric Mindset",
+        "soft_skill_05": "Adaptable Trailblazer",
+        "soft_skill_06": "Detail-Oriented Craftsman"
+    },
+    "Blogs": {
+        "sectionTitle": "Latest News & Blog",
+        "sectionSubtitle": "Read Our Every Single Articles & Blog",
+        "blogs": {
+            "01" : {
+                "category": "Business",
+                "title": "Preline becomes an official Instagram Marketing Partner",
+                "content": "Great news we're eager to share.",
+                "author": {
+                    "name": "Aaron Larsson",
+                    "date": "Feb 15, 2021"
+                }
+            },
+            "02" :{
+                "category": "Announcements",
+                "title": "Announcing a free plan for small teams",
+                "content": "At Wake, our mission has always been focused on bringing openness.",
+                "author": {
+                    "name": "Hanna Wolfe",
+                    "date": "Feb 4, 2021"
+                }
+            },
+            "03" :{
+                "category": "Announcements",
+                "title": "Announcing a free plan for small teams",
+                "content": "At Wake, our mission has always been focused on bringing openness.",
+                "author": {
+                    "name": "Hanna Wolfe",
+                    "date": "Feb 4, 2021"
+                }
+            }
+        }
+    },
+    "Header": {
+        "greeting": "Hey There 👋 I am",
+        "title": "Senior Frontend Developer",
+        "description": "Enthusiastic coder with a passion for crafting seamless user experiences through innovative frontend development.",
+        "buttons": {
+            "contact": "Contact Me"
+        }
+    },
+    "Services": {
+        "title": "What I Offer?",
+        "sectionTitle": "My Services",
+        "items": {
+            "01" :{
+                "title": "Full Stack Web Development",
+                "description": "I specialize in building scalable and responsive web applications using the MERN stack"
+            },
+            "02" :{
+                "title": "API Development",
+                "description": "Creating robust and efficient RESTful APIs to power your web and mobile application."
+            },
+            "03" :{
+                "title": "Database Design",
+                "description": "Designing and optimizing databases to ensure seamless data storage and retrieval."
+            },
+            "04" :{
+                "title": "Frontend Development",
+                "description": "Crafting interactive and user-friendly interfaces using modern frontend technologies."
+            },
+            "05" :{
+                "title": "Solving Problems",
+                "description": "Offering solutions to various challenges and problems encountered in web development."
+            }
+        } 
+    },
+    "RecentWork": {
+        "title" :"Creative Portfolios",
+        "sectionTitle": "Recent Works",
+        "sectionSubtitle": "I have worked on many projects but these are some of my most recent ones. Feel free to visit the projects",
+        "projects" :{
+            "01": {
+                "title": "Restaurant System Management",
+                "intro": "An intuitive web application for efficient restaurant operations and order management.",
+                "category": "Web-Application"
+            },
+            "02": {
+                "title": "Color Palette Extractor",
+                "intro": "Automatically extract a vibrant color palette from any image using JavaScript.",
+                "category": "Web-Application"
+            },
+            "03": {
+                "title": "Business Corporate Website",
+                "intro": "Unlock your business's digital potential with our sleek and sophisticated corporate website design, offering seamless navigation and impactful user experience.",
+                "category": "Landing Page"
+            },
+            "04": {
+                "title": "SaaSbold - Tailwind CSS Template",
+                "intro": "A meticulously designed Tailwind CSS template for Software, SaaS, Business, and web app landing pages.",
+                "category": "Landing Page"
+            },
+            "05": {
+                "title": "Agency and Startup Template",
+                "intro": "A versatile Tailwind CSS template crafted for Business, Digital Agency, and Startup websites, blending high-quality design with user-friendly functionality.",
+                "category": "Landing Page"
+            },
+            "06": {
+                "title": "Admin Dashboard Template",
+                "intro": "High-quality, open-source Tailwind CSS admin template ideal for building data-rich backends, robust web applications, and dashboard-admin projects.",
+                "category": "Web-Application"
+            },
+            "07": {
+                "title": "Check if Object Instance of Class",
+                "intro": "Dynamically verify if an object is an instance of a specified class or its superclass, considering method accessibility.",
+                "category": "Problem-solving"
+            },
+            "08": {
+                "title": "Memoize Function",
+                "intro": "memoize optimizes function efficiency by intelligently caching results with a Trie data structure, reducing redundant calculations for improved performance.",
+                "category": "Problem-solving"
+            },
+            "09": {
+                "title": "Concatenated Substrings",
+                "intro": "Resolved a challenging LeetCode problem: finding starting indices of concatenated substrings in a string using a sliding window approach for efficient word permutation handling.",
+                "category": "Problem-solving"
+            }
+        }
+    },
+    "Testimonials": {
+        "sectionTitle": "Clients Feedback",
+        "subsectionTitle": "What Our Clients Say About My Works",
+        "description": "Find out what our colleagues say about us. Their stories inspire us to continue improving and delivering exceptional experiences.",
+        "testimonials": {
+            "01" :{
+                "content": "Exceptional attention to detail! The animations and responsiveness on my website exceeded my expectations. Pleasure working with a true professional.",
+                "author": "SAID RAMLAOUI",
+                "position": "Consultant IT | ALGORIZMIE"
+            },
+            "02" :{
+                "content": "Talented and efficient! The UI/UX improvements made a significant impact on user engagement. Timely delivery and excellent communication throughout the project.",
+                "author": "Younes Afares",
+                "position": "Founder & CEO | FIKRALABS"
+            },
+            "03" :{
+                "content": "Highly skilled in modern web technologies! The clean code and intuitive design approach transformed our ideas into a visually stunning and user-friendly website. Would recommend without hesitation.",
+                "author": "Abdelaziz Ait Hassain",
+                "position": "Manager RH | YouCode"
+            }
+        }
+    },
+    "Experience": {
+        "title": "Meine Erfahrung",
+        "talkAbout": "Ein leidenschaftlicher Entwickler, der gerne programmiert",
+        "experiences": {
+            "01" :{
+                "id": 1,
+                "date": "Jul 2023 – Sep 2023",
+                "info": "Senior Frontend Entwickler Javascript",
+                "details": {
+                    "01": "Entwickelte und pflegte ReactJS-Schnittstellen.",
+                    "02": "Verbesserte die mobile Konversionsrate um 12%."
+                },
+                "company": "Seidan Inc."
+            },
+            "02" :{
+                "id": 2,
+                "date": "Jun 2021 – Okt 2022",
+                "info": "Frontend Entwickler | React Native & ReactJs",
+                "details": {
+                    "01": "Erstellte Web-App-Dashboards mit ReactJs.",
+                    "02": "Integrierte Spring Boot APIs.",
+                    "03": "Entwickelte mobile App-Schnittstellen mit React Native & Expo."
+                },
+                "company": "Algorizmie."
+            },
+            "03" :{
+                "id": 3,
+                "date": "Mai 2021",
+                "info": "Backend Entwickler | Nodejs & Blockchain",
+                "company": "IR4LAB Africa"
+            },
+            "04" :{
+                "id": 4,
+                "date": "Okt 2020",
+                "info": "Frontend Entwickler Drupal 9",
+                "company": "Fikralabs"
+            },
+            "05" :{
+                "id": 4,
+                "date": "Jul 2020 – Sep 2020",
+                "info": "Frontend Mobile Entwickler React Native",
+                "company": "OMAINVEST"
+            }
+        },
+        "educations": {
+            "01" :{
+                "id": 1,
+                "date": "November 2023",
+                "info": "Grundlagen der Informatik - 0 und 1",
+                "company": "Universität Würzburg, Online-Kurs"
+            },
+            "02" :{
+                "id": 2,
+                "date": "September 2023",
+                "info": "Online-Zertifikat für die Simulation von Backend-Engineering-Jobs",
+                "company": "Forage-Plattform in Zusammenarbeit mit Lyft"
+            },
+            "03" :{
+                "id": 3,
+                "date": "Nov 2021 – Dez 2021",
+                "info": "Online-Zertifikat für Frontend-Entwickler für VueJS 3 und Vuex",
+                "details": {
+                    "01": "Umfassende Erfahrung in der Vue 3-Entwicklung.",
+                    "02": "Integration von Firebase als Backend für Vue-Anwendungen."
+                },
+                "company": "Bright Coding Platform"
+            },
+            "04" :{
+                "id": 4,
+                "date": "Mai 2021 – Jun 2021",
+                "info": "Online-Zertifikat Spring-Boot-Entwickler",
+                "details": {
+                    "01": "Entwickelte Webanwendungen mit Spring Boot.",
+                    "02": "Implementierte Spring Security und JWT-Token.",
+                    "03": "Erstellung von RESTful-API-Webservices."
+                },
+                "company": "Bright Coding Platform"
+            },
+            "05" :{
+                "id": 5,
+                "date": "Feb 2021",
+                "info": "Online-Zertifikat für Frontend-Entwickler für VueJS 3",
+                "details": {
+                    "detail": "Effektive Verwendung von Datenbindung, Ereignissen, berechneten Eigenschaften und bedingter Renderings."
+                },
+                "company": "Bright Coding Platform"
+            },
+            "06" :{
+                "id": 6,
+                "date": "Jan 2021 – Feb 2021",
+                "info": "Online-Zertifikat für Full-Stack-Entwickler für MERN",
+                "details": {
+                    "01": "Entwickelte eine RESTful API mit Express.js.",
+                    "02": "Implementierte Datenvalidierung, Middleware und Fehlermanagement.",
+                    "03": "Einrichtung einer MERN-E-Commerce-Anwendung mit integrierter Online-Zahlung."
+                },
+                "company": "Bright Coding Platform"
+            },
+            "07" :{
+                "id": 7,
+                "date": "Okt 2020 – Nov 2020",
+                "info": "Online-Zertifikat für Frontend-Entwickler für Javascript ES6.",
+                "details": {
+                    "01": "Tiefgreifende Kenntnisse in JavaScript, einschließlich Steuerstrukturen, Funktionen und Methoden.",
+                    "02": "Erfahrung mit HTML DOM, Formularen, Ereignissen und Tabellenmanipulation."
+                },
+                "company": "Bright Coding Platform"
+            },
+            "08" :{
+                "id": 8,
+                "date": "Apr 2020 – Mai 2020",
+                "info": "Online-Zertifikat für Frontend-Entwickler für React.js und Redux",
+                "details": {
+                    "01": "Anwendung moderner JavaScript-Konzepte (ES6+).",
+                    "02": "Erfahrung mit dem Context API, Redux Store-Setup und Firebase/Firestore-Integration."
+                },
+                "company": "Bright Coding Platform"
+            },
+            "09" :{
+                "id": 9,
+                "date": "Jan 2021 – Feb 2021",
+                "info": "Ausbildung zum Fullstack-Entwickler Javascript",
+                "company": "YouCode Academy"
+            },
+            "10" :{
+                "id": 10,
+                "date": "Jan 2021 – Feb 2021",
+                "info": "Materialwissenschaft und Physik studiert (1. Jahr)",
+                "company": "IBN Zohr Fakultät"
+            },
+            "11" :{
+                "id": 11,
+                "date": "Jan 2021 – Feb 2021",
+                "info": "Internationales Abitur",
+                "details": {
+                    "01": "Wahlfächer: Naturwissenschaften."
+                },
+                "company": "Gymnasium Badr"
+            }
+        }
+    },
+    "Contact": {
+        "title": "Contact Me",
+        "talkAbout": "I'd love to talk about how I can help you.",
+        "titleForm": "Fill in the form",
+        "subject": "Subject",
+        "fullName": "Full Name",
+        "phone": "Phone Number",
+        "email": "Email Address",
+        "message": "Message",
+        "textBtn" : "Contact Me",
+        "warning": "We'll get back to you in 1-2 business days."
+    },
+    "Navbar":{
+        "home": "Home",
+        "contact": "Contact",
+        "download": "Download CV"
+    }
+}
