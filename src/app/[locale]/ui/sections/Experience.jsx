@@ -152,10 +152,10 @@ const Experience = () => {
             <div className="text-center space-y-3 max-w-xl mx-auto mb-10">
                 <div className="space-x-1">
                     <h6 className="text-blue-600 font-medium">
-                        {'title'}
+                        {t('title')}
                     </h6>
                     <h2 className="text-4xl font-bold">
-                        {'talkAbout'}
+                        {t('talkAbout')}
                     </h2>
                 </div>
             </div>
