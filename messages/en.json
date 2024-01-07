@@ -152,141 +152,141 @@
         }
     },
     "Experience": {
-        "title": "Meine Erfahrung",
-        "talkAbout": "Ein leidenschaftlicher Entwickler, der gerne programmiert",
+        "title": "My Experience",
+        "talkAbout": "A passionate developer who enjoys coding.",
         "experiences": {
-            "01" :{
+            "01": {
                 "id": 1,
                 "date": "Jul 2023 – Sep 2023",
-                "info": "Senior Frontend Entwickler Javascript",
+                "info": "Senior Frontend Developer - Javascript",
                 "details": {
-                    "01": "Entwickelte und pflegte ReactJS-Schnittstellen.",
-                    "02": "Verbesserte die mobile Konversionsrate um 12%."
+                    "01": "Developed and maintained ReactJS interfaces.",
+                    "02": "Improved mobile conversion rate by 12%."
                 },
                 "company": "Seidan Inc."
             },
-            "02" :{
+            "02": {
                 "id": 2,
-                "date": "Jun 2021 – Okt 2022",
-                "info": "Frontend Entwickler | React Native & ReactJs",
+                "date": "Jun 2021 – Oct 2022",
+                "info": "Frontend Developer | React Native & ReactJs",
                 "details": {
-                    "01": "Erstellte Web-App-Dashboards mit ReactJs.",
-                    "02": "Integrierte Spring Boot APIs.",
-                    "03": "Entwickelte mobile App-Schnittstellen mit React Native & Expo."
+                    "01": "Created web app dashboards with ReactJs.",
+                    "02": "Integrated Spring Boot APIs.",
+                    "03": "Developed mobile app interfaces with React Native & Expo."
                 },
                 "company": "Algorizmie."
             },
-            "03" :{
+            "03": {
                 "id": 3,
-                "date": "Mai 2021",
-                "info": "Backend Entwickler | Nodejs & Blockchain",
+                "date": "May 2021",
+                "info": "Backend Developer | Nodejs & Blockchain",
                 "company": "IR4LAB Africa"
             },
-            "04" :{
+            "04": {
                 "id": 4,
-                "date": "Okt 2020",
-                "info": "Frontend Entwickler Drupal 9",
+                "date": "Oct 2020",
+                "info": "Frontend Developer - Drupal 9",
                 "company": "Fikralabs"
             },
-            "05" :{
-                "id": 4,
+            "05": {
+                "id": 5,
                 "date": "Jul 2020 – Sep 2020",
-                "info": "Frontend Mobile Entwickler React Native",
+                "info": "Frontend Mobile Developer - React Native",
                 "company": "OMAINVEST"
             }
         },
         "educations": {
-            "01" :{
+            "01": {
                 "id": 1,
                 "date": "November 2023",
-                "info": "Grundlagen der Informatik - 0 und 1",
-                "company": "Universität Würzburg, Online-Kurs"
+                "info": "Fundamentals of Computer Science - 0 and 1",
+                "company": "University of Würzburg, Online Course"
             },
-            "02" :{
+            "02": {
                 "id": 2,
                 "date": "September 2023",
-                "info": "Online-Zertifikat für die Simulation von Backend-Engineering-Jobs",
-                "company": "Forage-Plattform in Zusammenarbeit mit Lyft"
+                "info": "Online Certificate for Simulating Backend Engineering Jobs",
+                "company": "Forage Platform in collaboration with Lyft"
             },
-            "03" :{
+            "03": {
                 "id": 3,
-                "date": "Nov 2021 – Dez 2021",
-                "info": "Online-Zertifikat für Frontend-Entwickler für VueJS 3 und Vuex",
+                "date": "Nov 2021 – Dec 2021",
+                "info": "Online Certificate for Frontend Developer - VueJS 3 and Vuex",
                 "details": {
-                    "01": "Umfassende Erfahrung in der Vue 3-Entwicklung.",
-                    "02": "Integration von Firebase als Backend für Vue-Anwendungen."
+                    "01": "Extensive experience in Vue 3 development.",
+                    "02": "Integration of Firebase as backend for Vue applications."
                 },
                 "company": "Bright Coding Platform"
             },
-            "04" :{
+            "04": {
                 "id": 4,
-                "date": "Mai 2021 – Jun 2021",
-                "info": "Online-Zertifikat Spring-Boot-Entwickler",
+                "date": "May 2021 – Jun 2021",
+                "info": "Online Certificate Spring Boot Developer",
                 "details": {
-                    "01": "Entwickelte Webanwendungen mit Spring Boot.",
-                    "02": "Implementierte Spring Security und JWT-Token.",
-                    "03": "Erstellung von RESTful-API-Webservices."
+                    "01": "Developed web applications with Spring Boot.",
+                    "02": "Implemented Spring Security and JWT-Token.",
+                    "03": "Creation of RESTful API web services."
                 },
                 "company": "Bright Coding Platform"
             },
-            "05" :{
+            "05": {
                 "id": 5,
                 "date": "Feb 2021",
-                "info": "Online-Zertifikat für Frontend-Entwickler für VueJS 3",
+                "info": "Online Certificate for Frontend Developer - VueJS 3",
                 "details": {
-                    "detail": "Effektive Verwendung von Datenbindung, Ereignissen, berechneten Eigenschaften und bedingter Renderings."
+                    "detail": "Effective use of data binding, events, computed properties, and conditional renderings."
                 },
                 "company": "Bright Coding Platform"
             },
-            "06" :{
+            "06": {
                 "id": 6,
                 "date": "Jan 2021 – Feb 2021",
-                "info": "Online-Zertifikat für Full-Stack-Entwickler für MERN",
+                "info": "Online Certificate for Full-Stack Developer - MERN",
                 "details": {
-                    "01": "Entwickelte eine RESTful API mit Express.js.",
-                    "02": "Implementierte Datenvalidierung, Middleware und Fehlermanagement.",
-                    "03": "Einrichtung einer MERN-E-Commerce-Anwendung mit integrierter Online-Zahlung."
+                    "01": "Developed a RESTful API with Express.js.",
+                    "02": "Implemented data validation, middleware, and error management.",
+                    "03": "Set up a MERN E-Commerce application with integrated online payment."
                 },
                 "company": "Bright Coding Platform"
             },
-            "07" :{
+            "07": {
                 "id": 7,
-                "date": "Okt 2020 – Nov 2020",
-                "info": "Online-Zertifikat für Frontend-Entwickler für Javascript ES6.",
+                "date": "Oct 2020 – Nov 2020",
+                "info": "Online Certificate for Frontend Developer - Javascript ES6.",
                 "details": {
-                    "01": "Tiefgreifende Kenntnisse in JavaScript, einschließlich Steuerstrukturen, Funktionen und Methoden.",
-                    "02": "Erfahrung mit HTML DOM, Formularen, Ereignissen und Tabellenmanipulation."
+                    "01": "In-depth knowledge in JavaScript, including control structures, functions, and methods.",
+                    "02": "Experience with HTML DOM, forms, events, and table manipulation."
                 },
                 "company": "Bright Coding Platform"
             },
-            "08" :{
+            "08": {
                 "id": 8,
-                "date": "Apr 2020 – Mai 2020",
-                "info": "Online-Zertifikat für Frontend-Entwickler für React.js und Redux",
+                "date": "Apr 2020 – May 2020",
+                "info": "Online Certificate for Frontend Developer - React.js and Redux",
                 "details": {
-                    "01": "Anwendung moderner JavaScript-Konzepte (ES6+).",
-                    "02": "Erfahrung mit dem Context API, Redux Store-Setup und Firebase/Firestore-Integration."
+                    "01": "Application of modern JavaScript concepts (ES6+).",
+                    "02": "Experience with Context API, Redux store setup, and Firebase/Firestore integration."
                 },
                 "company": "Bright Coding Platform"
             },
-            "09" :{
+            "09": {
                 "id": 9,
                 "date": "Jan 2021 – Feb 2021",
-                "info": "Ausbildung zum Fullstack-Entwickler Javascript",
+                "info": "Fullstack Developer Javascript Training",
                 "company": "YouCode Academy"
             },
-            "10" :{
+            "10": {
                 "id": 10,
                 "date": "Jan 2021 – Feb 2021",
-                "info": "Materialwissenschaft und Physik studiert (1. Jahr)",
-                "company": "IBN Zohr Fakultät"
+                "info": "Studied Materials Science and Physics (1st Year)",
+                "company": "IBN Zohr Faculty"
             },
-            "11" :{
+            "11": {
                 "id": 11,
                 "date": "Jan 2021 – Feb 2021",
-                "info": "Internationales Abitur",
+                "info": "International Baccalaureate",
                 "details": {
-                    "01": "Wahlfächer: Naturwissenschaften."
+                    "01": "Elective subjects: Natural Sciences."
                 },
                 "company": "Gymnasium Badr"
             }
