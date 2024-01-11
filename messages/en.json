@@ -234,7 +234,7 @@
                 "date": "Feb 2021",
                 "info": "Online Certificate for Frontend Developer - VueJS 3",
                 "details": {
-                    "detail": "Effective use of data binding, events, computed properties, and conditional renderings."
+                    "01": "Effective use of data binding, events, computed properties, and conditional renderings."
                 },
                 "company": "Bright Coding Platform"
             },

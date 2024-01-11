@@ -45,8 +45,8 @@ const Testimonials = () => {
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {testimonials.map((testimonial, index) => (
-                        <div key={index} class="flex flex-col relative bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-slate-900 dark:border-gray-700">
-                            <div class="flex-auto p-4 md:p-6 relative">
+                        <div key={index} className="flex flex-col relative bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-slate-900 dark:border-gray-700">
+                            <div className="flex-auto p-4 md:p-6 relative">
                                 <svg
                                     className="absolute top-0 start-0 h-16 w-16 text-gray-200 sm:h-24 sm:w-24 dark:text-gray-700"
                                     width="16"
@@ -63,11 +63,11 @@ const Testimonials = () => {
                                 </span>
                             </div>
 
-                            <div class="p-4 rounded-b-xl md:px-6">
-                                <h3 class="text-sm font-semibold text-gray-800 sm:text-base dark:text-gray-200">
+                            <div className="p-4 rounded-b-xl md:px-6">
+                                <h3 className="text-sm font-semibold text-gray-800 sm:text-base dark:text-gray-200">
                                     {testimonial.author}
                                 </h3>
-                                <p class="text-sm text-gray-500">
+                                <p className="text-sm text-gray-500">
                                     {testimonial.position}
                                 </p>
                             </div>
