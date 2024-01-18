@@ -7,13 +7,13 @@ To explore my portfolio, follow these steps:
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/ayoub-moustahfid/portfolio.git
+    git clone https://github.com/AyoubMoustahfid/moustahfid-portfolio.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd portfolio
+    cd moustahfid-portfolio
     ```
 
 3. Install the required dependencies:
