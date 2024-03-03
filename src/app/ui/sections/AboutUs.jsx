@@ -18,7 +18,7 @@ export default function AboutUs() {
                           A Passionate Developer Who Loves to Code
                       </h2>
                       <p className="text-base text-gray-700 md:text-lg">
-                          Hello! I'm Ayoub Moustahfid, a dedicated and results-driven Junior Frontend Developer born on June 7, 2000, in Agadir, Morocco. I've ventured from the world of material science and physics to immerse myself in the dynamic and ever-evolving field of web development.
+                          Hello! I&quot;m Ayoub Moustahfid, a dedicated and results-driven Junior Frontend Developer born on June 7, 2000, in Agadir, Morocco. I&quot;ve ventured from the world of material science and physics to immerse myself in the dynamic and ever-evolving field of web development.
                       </p>
                   </div>
                   <p className="mb-4 text-sm font-bold tracking-widest uppercase">

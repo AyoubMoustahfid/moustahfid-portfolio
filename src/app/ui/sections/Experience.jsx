@@ -46,7 +46,7 @@ const Experience = () => {
                                                 <line x1="16" x2="8" y1="17" y2="17" />
                                                 <line x1="10" x2="8" y1="9" y2="9" />
                                             </svg>
-                                            Created "Preline in React" task
+                                            Created &quot;Preline in React&quot; task
                                         </>
                                     ) : (
                                         'Release v5.2.0 quick bug fix 🐞'

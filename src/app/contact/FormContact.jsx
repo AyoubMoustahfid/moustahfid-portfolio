@@ -15,7 +15,6 @@ export default function FormContact() {
 
     const [formErrors, setFormErrors] = useState({});
     const [formSubmitted, setFormSubmitted] = useState(false);
-    const [showSuccessAlert, setShowSuccessAlert] = useState(false);
 
     const handleChange = (e) => {
         setFormData({
@@ -53,7 +52,25 @@ export default function FormContact() {
             return;
         }
 
-        
+        // Prepare data for the mailto link
+        const { user_name, hs_lastname_contacts_1, user_email, hs_phone_number_1, message } = formData;
+        const subject = `Contact Form Submission from ${user_name}`;
+        const body = `Name: ${user_name}\nLast Name: ${hs_lastname_contacts_1}\nEmail: ${user_email}\nPhone Number: ${hs_phone_number_1}\nMessage: ${message}`;
+        const mailtoLink = `mailto:ayoub.moustahfid@zohomail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+        // Open the user's default email client with pre-filled information
+        window.location.href = mailtoLink;
+
+        // Reset form data
+        setFormData({
+            user_name: '',
+            hs_lastname_contacts_1: '',
+            user_email: '',
+            hs_phone_number_1: '',
+            message: '',
+        });
+
+        setFormSubmitted(true);
     };
 
     useEffect(() => {
