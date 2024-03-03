@@ -51,7 +51,7 @@
     }, 
     "Header": {
         "greeting": "Hallo dort 👋 Ich bin",
-        "title":  "Softwae-Entwickler",
+        "title":  "Software Entwickler",
         "description": "Enthusiastischer Programmierer mit einer Leidenschaft für die Gestaltung nahtloser Benutzererlebnisse durch innovative Frontend-Entwicklung.",
         "buttons": {
             "contact": "Kontaktiere mich"
