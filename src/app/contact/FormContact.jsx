@@ -15,6 +15,8 @@ export default function FormContact() {
 
     const [formErrors, setFormErrors] = useState({});
     const [formSubmitted, setFormSubmitted] = useState(false);
+    const [showSuccessAlert, setShowSuccessAlert] = useState(false);
+
 
     const handleChange = (e) => {
         setFormData({
@@ -71,6 +73,7 @@ export default function FormContact() {
         });
 
         setFormSubmitted(true);
+        setShowSuccessAlert(true);
     };
 
     useEffect(() => {
