@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useRef, useState, useEffect } from 'react';
-import emailjs from 'emailjs-com';
+
 
 export default function FormContact() {
     const formRef = useRef();
@@ -53,31 +53,7 @@ export default function FormContact() {
             return;
         }
 
-        try {
-            // Use your own EmailJS Service ID, Template ID, and User ID
-            const response = await emailjs.sendForm(
-                'service_j1e2ekl',
-                'template_dylpe7f',
-                formRef.current,
-                '7oMUeWEkftji2IeF-'
-            );
-
-            console.log('Email sent successfully:', response);
-
-            // Reset form after submission
-            setFormData({
-                user_name: '',
-                hs_lastname_contacts_1: '',
-                user_email: '',
-                hs_phone_number_1: '',
-                message: '',
-            });
-
-            setFormSubmitted(true);
-            setShowSuccessAlert(true);
-        } catch (error) {
-            console.error('Error sending email:', error);
-        }
+        
     };
 
     useEffect(() => {
@@ -218,7 +194,7 @@ export default function FormContact() {
             )}
             <div className="mt-3 text-center">
                 <p className="text-sm text-gray-500">
-                    We'll get back to you in 1-2 business days.
+                    We&lsquo;ll get back to you in 1-2 business days.
                 </p>
             </div>
         </form>
