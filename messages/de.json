@@ -51,7 +51,7 @@
     }, 
     "Header": {
         "greeting": "Hallo dort 👋 Ich bin",
-        "title": "Senior Frontend Entwickler",
+        "title":  "Softwae-Entwickler",
         "description": "Enthusiastischer Programmierer mit einer Leidenschaft für die Gestaltung nahtloser Benutzererlebnisse durch innovative Frontend-Entwicklung.",
         "buttons": {
             "contact": "Kontaktiere mich"
