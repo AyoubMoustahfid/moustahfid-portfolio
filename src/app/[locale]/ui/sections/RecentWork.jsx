@@ -99,7 +99,7 @@ export default function RecentWork() {
             title: t('projects.10.title'),
             intro: t('projects.10.intro'),
             category: t('projects.10.category'),
-            link: "https://github.com/AyoubMoustahfid/javascript-challenge/tree/master/substring_concatenation_solution"
+            link: "https://github.com/AyoubMoustahfid/app-sheduler-meeting"
         },
     ];
 
