@@ -126,6 +126,11 @@
                 "title": "Concatenated Substrings",
                 "intro": "Resolved a challenging LeetCode problem: finding starting indices of concatenated substrings in a string using a sliding window approach for efficient word permutation handling.",
                 "category": "Problem-solving"
+            },
+            "10": {
+                "title": "Meeting Scheduler",
+                "intro": "Next.js app streamlining meeting scheduling. Auth with Kind, data management via Firebase. Features: event creation, schedule management, conflict prevention.",
+                "category": "Web-Application"
             }
         }
     },

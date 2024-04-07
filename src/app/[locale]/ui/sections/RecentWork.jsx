@@ -12,6 +12,7 @@ import img_project_04 from "../../../assets/images/img_project_04.png"
 import img_project_05 from "../../../assets/images/img_project_05.jpeg"
 import img_project_06 from "../../../assets/images/img_project_06.png"
 import img_project_07 from "../../../assets/images/img_project_07.png"
+import img_project_10 from "../../../assets/images/img_project_10.png"
 
 
 
@@ -85,11 +86,19 @@ export default function RecentWork() {
             link: "https://github.com/AyoubMoustahfid/javascript-challenge/tree/master/memoize-function"
         },
         {
-            id: 8,
+            id: 9,
             image: img_project_07,
             title: t('projects.09.title'),
             intro: t('projects.09.intro'),
             category: t('projects.09.category'),
+            link: "https://github.com/AyoubMoustahfid/javascript-challenge/tree/master/substring_concatenation_solution"
+        },
+        {
+            id: 10,
+            image: img_project_10,
+            title: t('projects.10.title'),
+            intro: t('projects.10.intro'),
+            category: t('projects.10.category'),
             link: "https://github.com/AyoubMoustahfid/javascript-challenge/tree/master/substring_concatenation_solution"
         },
     ];

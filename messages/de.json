@@ -132,6 +132,11 @@
                 "title": "Verkettete Teilstrings",
                 "intro": "Löste eine anspruchsvolle LeetCode-Aufgabe: Finden der Startindizes von verketteten Teilstrings in einem String unter Verwendung eines Gleitfenster-Ansatzes zur effizienten Handhabung von Wortpermutationen.",
                 "category": "Problem-Lösung"
+            },
+            "10": {
+                "title": "Meeting-Planer",
+                "intro": "Next.js-App zur Optimierung der Terminplanung. Authentifizierung mit Kind, Datenverwaltung über Firebase. Funktionen: Veranstaltungserstellung, Terminverwaltung, Konfliktvermeidung.",
+                "category" : "Web-Anwendung"
             }
         }
     },
