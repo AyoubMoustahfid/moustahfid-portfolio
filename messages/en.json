@@ -131,6 +131,11 @@
                 "title": "Meeting Scheduler",
                 "intro": "Next.js app streamlining meeting scheduling. Auth with Kind, data management via Firebase. Features: event creation, schedule management, conflict prevention.",
                 "category": "Web-Application"
+            },
+            "11": {
+                "title": "Online Whiteboard",
+                "intro" : "Real-time collaboration whiteboard app built with Next.js, React, Tailwind CSS, Express, and Socket.IO. Draw, brainstorm, and collaborate seamlessly!",
+                "category": "Web-Application"
             }
         }
     },

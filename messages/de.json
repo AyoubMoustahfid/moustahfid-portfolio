@@ -137,6 +137,12 @@
                 "title": "Meeting-Planer",
                 "intro": "Next.js-App zur Optimierung der Terminplanung. Authentifizierung mit Kind, Datenverwaltung über Firebase. Funktionen: Veranstaltungserstellung, Terminverwaltung, Konfliktvermeidung.",
                 "category" : "Web-Anwendung"
+            },
+            "11": {
+                "title": "Online-Whiteboard",
+                "intro": "Echtzeit-Kollaborations-Whiteboard-App, gebaut mit Next.js, React, Tailwind CSS, Express und Socket.IO. Zeichnen, brainstormen und nahtlos zusammenarbeiten!",
+                "category" : "Web-Anwendung"
+
             }
         }
     },

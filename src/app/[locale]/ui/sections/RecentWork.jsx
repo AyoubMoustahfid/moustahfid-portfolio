@@ -13,6 +13,7 @@ import img_project_05 from "../../../assets/images/img_project_05.jpeg"
 import img_project_06 from "../../../assets/images/img_project_06.png"
 import img_project_07 from "../../../assets/images/img_project_07.png"
 import img_project_10 from "../../../assets/images/img_project_10.png"
+import img_project_11 from "../../../assets/images/img_project_11.png"
 
 
 
@@ -100,6 +101,14 @@ export default function RecentWork() {
             intro: t('projects.10.intro'),
             category: t('projects.10.category'),
             link: "https://github.com/AyoubMoustahfid/app-sheduler-meeting"
+        },
+        {
+            id: 11,
+            image: img_project_11,
+            title: t('projects.11.title'),
+            intro: t('projects.11.intro'),
+            category: t('projects.11.category'),
+            link: "https://github.com/AyoubMoustahfid/online-board"
         },
     ];
 
