@@ -154,7 +154,7 @@ export default function RecentWork() {
                     {['All', t('projects.3.category'), t('projects.1.category'), t('projects.7.category')].map((tab, index) => (
                         <li key={index} className="me-2">
                             <a
-                                href={`/#${tab.toLowerCase().replace(' ', '_')}`}
+                                href={`#${tab.toLowerCase().replace(' ', '_')}`}
                                 className={`inline-block px-4 py-3 rounded-lg ${activeTab === tab
                                     ? 'text-white bg-blue-600'
                                     : 'hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-white'
