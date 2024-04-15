@@ -5,119 +5,92 @@ import Card from '../components/service/Card';
 import { useTranslations } from "next-intl";
 
 
-import img_project_01 from "../../../assets/images/img_project_01.jpeg"
-import img_project_02 from "../../../assets/images/img_project_02.png"
-import img_project_03 from "../../../assets/images/img_project_03.jpeg"
-import img_project_04 from "../../../assets/images/img_project_04.png"
-import img_project_05 from "../../../assets/images/img_project_05.jpeg"
-import img_project_06 from "../../../assets/images/img_project_06.png"
-import img_project_07 from "../../../assets/images/img_project_07.png"
-import img_project_10 from "../../../assets/images/img_project_10.png"
-import img_project_11 from "../../../assets/images/img_project_11.png"
+import img_project_1 from "../../../assets/images/img_project_01.jpeg"
+import img_project_2 from "../../../assets/images/img_project_02.png"
+import img_project_3 from "../../../assets/images/img_project_03.jpeg"
+import img_project_4 from "../../../assets/images/img_project_04.png"
+import img_project_5 from "../../../assets/images/img_project_05.jpeg"
+import img_project_6 from "../../../assets/images/img_project_06.png"
+import img_project_7 from "../../../assets/images/img_project_07.png"
+import img_project_8 from "../../../assets/images/img_project_08.png"
+import img_project_9 from "../../../assets/images/img_project_09.png"
 
 
 
 export default function RecentWork() {
     const t = useTranslations("RecentWork");
 
-    // Example project data
-    const projects = [
-        { 
-            id: 1, 
-            image: img_project_01,
-            title: t('projects.01.title'), 
-            intro: t('projects.01.intro'),
-            category: t('projects.01.category'),
-            link: "https://github.com/AyoubMoustahfid/Restaurant-System-management-MERN" 
-        },
-        { 
-            id: 2, 
-            image: img_project_02,
-            title: t('projects.02.title'),
-            intro: t('projects.02.intro'),
-            category: t('projects.02.category'),
-            link: "https://github.com/AyoubMoustahfid/get-color-from-image-javascript" 
-        },
-        { 
-            id: 3, 
-            image: img_project_03,
-            title: t('projects.03.title'),
-            intro: t('projects.03.intro'),
-            category: t('projects.03.category'),
-            link: "https://github.com/AyoubMoustahfid/Project-business-corporate-website" 
-        },
-        { 
-            id: 4, 
-            image: img_project_04,
-            title: t('projects.04.title'),
-            intro: t('projects.04.intro'),
-            category: t('projects.04.category'),
-            link: "https://github.com/AyoubMoustahfid/Project-SaaSbold-Landing-Page-Tailwind" 
-        },
-        {
-            id: 5,
-            image: img_project_05,
-            title: t('projects.05.title'),
-            intro: t('projects.05.intro'),
-            category: t('projects.05.category'),
-            link: "https://github.com/AyoubMoustahfid/Project-Agency-And-Startup-Template"
-        },
-        {
-            id: 6,
-            image: img_project_06,
-            title: t('projects.06.title'),
-            intro: t('projects.06.intro'),
-            category: t('projects.06.category'),
-            link: "https://github.com/AyoubMoustahfid/Project-Dashboard-Admin-Template"
-        },
-        {
-            id: 7,
-            image: img_project_07,
-            title: t('projects.07.title'),
-            intro: t('projects.07.intro'),
-            category: t('projects.07.category'),
-            link: "https://github.com/AyoubMoustahfid/javascript-challenge/tree/master/object-class-check"
-        },
-        {
-            id: 8,
-            image: img_project_07,
-            title: t('projects.08.title'),
-            intro: t('projects.08.intro'),
-            category: t('projects.08.category'),
-            link: "https://github.com/AyoubMoustahfid/javascript-challenge/tree/master/memoize-function"
-        },
-        {
-            id: 9,
-            image: img_project_07,
-            title: t('projects.09.title'),
-            intro: t('projects.09.intro'),
-            category: t('projects.09.category'),
-            link: "https://github.com/AyoubMoustahfid/javascript-challenge/tree/master/substring_concatenation_solution"
-        },
-        {
-            id: 10,
-            image: img_project_10,
-            title: t('projects.10.title'),
-            intro: t('projects.10.intro'),
-            category: t('projects.10.category'),
-            link: "https://github.com/AyoubMoustahfid/app-sheduler-meeting"
-        },
-        {
-            id: 11,
-            image: img_project_11,
-            title: t('projects.11.title'),
-            intro: t('projects.11.intro'),
-            category: t('projects.11.category'),
-            link: "https://github.com/AyoubMoustahfid/online-board"
-        },
-    ];
+    const projects = (int) => {
+        const links = [
+            {
+                img: img_project_1,
+                href: 'https://github.com/AyoubMoustahfid/Restaurant-System-management-MERN'
+            },
+            {
+                img: img_project_2,
+                href: 'https://github.com/AyoubMoustahfid/get-color-from-image-javascript'
+            },
+            {
+                img: img_project_3,
+                href: 'https://github.com/AyoubMoustahfid/Project-business-corporate-website'
+            },
+            {
+                img: img_project_4,
+                href: 'https://github.com/AyoubMoustahfid/Project-SaaSbold-Landing-Page-Tailwind'
+            },
+            {
+                img: img_project_5,
+                href: 'https://github.com/AyoubMoustahfid/Project-Agency-And-Startup-Template'
+            },
+            {
+                img: img_project_6,
+                href: 'https://github.com/AyoubMoustahfid/Project-Dashboard-Admin-Template'
+            },
+            {
+                img: img_project_7,
+                href: 'https://github.com/AyoubMoustahfid/javascript-challenge/tree/master/object-class-check'
+            },
+            {
+                img: img_project_7,
+                href: 'https://github.com/AyoubMoustahfid/javascript-challenge/tree/master/memoize-function'
+            },
+            {
+                img: img_project_7,
+                href: 'https://github.com/AyoubMoustahfid/javascript-challenge/tree/master/substring_concatenation_solution'
+            },
+            {
+                img: img_project_8,
+                href: 'https://github.com/AyoubMoustahfid/app-sheduler-meeting'
+            },
+            {
+                img: img_project_9,
+                href: 'https://github.com/AyoubMoustahfid/online-board'
+            },
+        ]
+
+        return {
+            id: int,
+            image: links[int - 1].img,
+            title: t(`projects.${int}.title`),
+            intro: t(`projects.${int}.intro`),
+            category: t(`projects.${int}.category`),
+            link: links[int - 1].href
+        };
+    };
+
+
+    const projectCount = 11; // Adjust this based on the actual number of projects
+
+    // Generate project arrays based on the number of projects
+    const allProjects = Array.from({ length: projectCount }, (_, index) => projects(index + 1));
+
 
     const [activeTab, setActiveTab] = useState('All');
     const [currentPage, setCurrentPage] = useState(1);
     const [filteredProjects, setFilteredProjects] = useState([]);
 
     // Assuming `projects` is the array of all projects
-    const allProjects = projects;
+    //const allProjects = projects;
 
     useEffect(() => {
         // Filter projects whenever activeTab changes
@@ -146,7 +119,7 @@ export default function RecentWork() {
         return (
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {currentProjects.map((project, index) => (
-                    <Card info={project} key={index} />
+                    <Card info={project} key={index} index={index} />
                 ))}
             </div>
         );
@@ -178,7 +151,7 @@ export default function RecentWork() {
                     </p>
                 </div>
                 <ul className="flex flex-wrap justify-center text-sm font-medium text-center text-gray-500 dark:text-gray-400">
-                    {['All', t('projects.03.category'), t('projects.01.category'), t('projects.07.category')].map((tab, index) => (
+                    {['All', t('projects.3.category'), t('projects.1.category'), t('projects.7.category')].map((tab, index) => (
                         <li key={index} className="me-2">
                             <a
                                 href={`#${tab.toLowerCase().replace(' ', '_')}`}

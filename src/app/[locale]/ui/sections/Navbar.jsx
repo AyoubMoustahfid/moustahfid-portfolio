@@ -171,7 +171,7 @@ export default function Navbar() {
                             {t('home')}
                         </Link>
                     </li>
-                      <li onClick={toggleMenu}>
+                    <li onClick={toggleMenu}>
                         <Link
                             href="/contact"
                             locale={pathname.split('/')[1]}
@@ -182,6 +182,19 @@ export default function Navbar() {
                             aria-current="page"
                         >
                             {t('contact')}
+                        </Link>
+                    </li>
+                    <li onClick={toggleMenu}>
+                        <Link
+                            href="/projects"
+                            locale={pathname.split('/')[1]}
+                            className={`block py-2 px-3 md:p-0 ${pathname === `/${pathname.split('/')[1]}/projects`
+                                ? 'text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:dark:text-blue-500'
+                                : 'text-gray-900 dark:text-white'
+                                }`}
+                            aria-current="page"
+                        >
+                            {t('projects')}
                         </Link>
                     </li>
                 </ul>

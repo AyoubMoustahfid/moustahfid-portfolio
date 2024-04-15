@@ -88,47 +88,47 @@
         "sectionTitle": "Aktuelle Arbeiten",
         "sectionSubtitle": "Ich habe an vielen Projekten gearbeitet, aber dies sind einige meiner neuesten. Besuchen Sie gerne die Projekte",
         "projects": {
-            "01": {
+            "1": {
                 "title": "Restaurant System Management",
                 "intro": "Eine intuitive Webanwendung für effizientes Restaurantmanagement und Bestellverwaltung.",
                 "category": "Web-Anwendung"
             },
-            "02": {
+            "2": {
                 "title": "Farbpalettenextraktor",
                 "intro": "Extrahieren Sie automatisch eine lebendige Farbpalette aus jedem Bild mithilfe von JavaScript.",
                 "category": "Web-Anwendung"
             },
-            "03": {
+            "3": {
                 "title": "Geschäftsunternehmenswebsite",
                 "intro": "Erschließen Sie das digitale Potenzial Ihres Unternehmens mit unserem schlanken und anspruchsvollen Webdesign für Unternehmenswebsites, das nahtlose Navigation und eine beeindruckende Benutzererfahrung bietet.",
                 "category": "Landing Page"
             },
-            "04": {
+            "4": {
                 "title": "SaaSbold - Tailwind CSS Template",
                 "intro": "Ein sorgfältig gestaltetes Tailwind CSS-Template für Software, SaaS, Business und Landing Pages von Webanwendungen.",
                 "category": "Landing Page" 
             },
-            "05": {
+            "5": {
                 "title": "Agentur- und Startuptemplate",
                 "intro": "Ein vielseitiges Tailwind CSS-Template, das für Websites von Unternehmen, Digitalagenturen und Startups entwickelt wurde und hochwertiges Design mit benutzerfreundlicher Funktionalität kombiniert.",
                 "category": "Landing Page"
             },
-            "06": {
+            "6": {
                 "title": "Admin-Dashboard-Template",
                 "intro": "Hochwertiges, Open-Source Tailwind CSS-Admin-Template, ideal für den Aufbau von datenreichen Backends, robusten Webanwendungen und Dashboard-Admin-Projekten.",
                 "category": "Web-Anwendung"
             },
-            "07": {
+            "7": {
                 "title": "Überprüfen Sie, ob ein Objekt Instanz einer Klasse ist",
                 "intro": "Überprüfen Sie dynamisch, ob ein Objekt eine Instanz einer angegebenen Klasse oder ihrer Superklasse ist, unter Berücksichtigung der Methodenzugriffsberechtigungen.",
                 "category": "Problem-Lösung"
             },
-            "08": {
+            "8": {
                 "title": "Memoize Funktion",
                 "intro": "Memoize optimiert die Effizienz von Funktionen durch intelligentes Zwischenspeichern von Ergebnissen mit einer Trie-Datenstruktur und reduziert redundante Berechnungen für verbesserte Leistung.",
                 "category": "Problem-Lösung"
             },
-            "09": {
+            "9": {
                 "title": "Verkettete Teilstrings",
                 "intro": "Löste eine anspruchsvolle LeetCode-Aufgabe: Finden der Startindizes von verketteten Teilstrings in einem String unter Verwendung eines Gleitfenster-Ansatzes zur effizienten Handhabung von Wortpermutationen.",
                 "category": "Problem-Lösung"
@@ -324,6 +324,7 @@
     "Navbar":{
         "home": "Startseite",
         "contact": "Kontakt",
+        "projects": "Projekte",
         "download": "Herunterladen CV"
     }
 }

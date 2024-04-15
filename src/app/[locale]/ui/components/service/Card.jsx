@@ -1,14 +1,14 @@
 import React from 'react'
 import Image from "next/image"
 
-export default function Card({info, key}) {
+export default function Card({info, index}) {
     return (
-        <div key={key} className="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+        <div key={index} className="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7]">
             <div className="h-52 flex flex-col justify-center items-center bg-amber-500 rounded-t-xl">
                 <Image
                     src={info.image}
                     alt={info.image}
-                    className="h-52"
+                    className="h-52 w-full"
                 />
             </div>
             <div className="p-4 md:p-6">

@@ -1,5 +1,5 @@
-import Navbar from './ui/sections/Navbar'
-import Footer from "./ui/sections/Footer"
+import Navbar from './ui/sections/Navbar';
+import Footer from './ui/sections/Footer';
 import ScrollToTopButton from './ui/components/ScrollToTopButton'
 import {NextIntlClientProvider, useMessages} from 'next-intl';
 

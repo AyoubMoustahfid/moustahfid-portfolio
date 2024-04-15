@@ -30,7 +30,7 @@ const Testimonials = () => {
     return (
         <section className="container py-14">
             <div className="relative max-w-full mx-auto overflow-hidden ">
-                <div className="text-center space-y-3 max-w-xl mx-auto">
+                <div className="text-center space-y-3 max-w-xl mx-auto mb-6">
                     <div className="space-x-1">
                         <h6 className="text-blue-600 font-medium">
                             {t('sectionTitle')}

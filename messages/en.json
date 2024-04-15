@@ -82,47 +82,47 @@
         "sectionTitle": "Recent Works",
         "sectionSubtitle": "I have worked on many projects but these are some of my most recent ones. Feel free to visit the projects",
         "projects" :{
-            "01": {
+            "1": {
                 "title": "Restaurant System Management",
                 "intro": "An intuitive web application for efficient restaurant operations and order management.",
                 "category": "Web-Application"
             },
-            "02": {
+            "2": {
                 "title": "Color Palette Extractor",
                 "intro": "Automatically extract a vibrant color palette from any image using JavaScript.",
                 "category": "Web-Application"
             },
-            "03": {
+            "3": {
                 "title": "Business Corporate Website",
                 "intro": "Unlock your business's digital potential with our sleek and sophisticated corporate website design, offering seamless navigation and impactful user experience.",
                 "category": "Landing Page"
             },
-            "04": {
+            "4": {
                 "title": "SaaSbold - Tailwind CSS Template",
                 "intro": "A meticulously designed Tailwind CSS template for Software, SaaS, Business, and web app landing pages.",
                 "category": "Landing Page"
             },
-            "05": {
+            "5": {
                 "title": "Agency and Startup Template",
                 "intro": "A versatile Tailwind CSS template crafted for Business, Digital Agency, and Startup websites, blending high-quality design with user-friendly functionality.",
                 "category": "Landing Page"
             },
-            "06": {
+            "6": {
                 "title": "Admin Dashboard Template",
                 "intro": "High-quality, open-source Tailwind CSS admin template ideal for building data-rich backends, robust web applications, and dashboard-admin projects.",
                 "category": "Web-Application"
             },
-            "07": {
+            "7": {
                 "title": "Check if Object Instance of Class",
                 "intro": "Dynamically verify if an object is an instance of a specified class or its superclass, considering method accessibility.",
                 "category": "Problem-solving"
             },
-            "08": {
+            "8": {
                 "title": "Memoize Function",
                 "intro": "memoize optimizes function efficiency by intelligently caching results with a Trie data structure, reducing redundant calculations for improved performance.",
                 "category": "Problem-solving"
             },
-            "09": {
+            "9": {
                 "title": "Concatenated Substrings",
                 "intro": "Resolved a challenging LeetCode problem: finding starting indices of concatenated substrings in a string using a sliding window approach for efficient word permutation handling.",
                 "category": "Problem-solving"
@@ -317,6 +317,7 @@
     "Navbar":{
         "home": "Home",
         "contact": "Contact",
+        "projects": "Projects",
         "download": "Download CV"
     }
 }
